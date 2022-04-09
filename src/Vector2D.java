@@ -18,8 +18,8 @@ public class Vector2D{
     }
 
     void add(Vector2D v) {
-        x += v.x;
-        y += v.y;
+        this.x += v.x;
+        this.y += v.y;
     }
  
     void sub(Vector2D v) {
